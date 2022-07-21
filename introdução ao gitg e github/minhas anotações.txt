@@ -18,5 +18,5 @@ ssh -add id_ed(chave privada)
 
 Para realizar modificações no repositório a partir de mudanças locais
 git add .
-git commit -m "nome do arquivo ou pasta"
-git push origen main 
+git commit -m "comentário que deseja adicionar"
+git push origin main 
