@@ -1,0 +1,22 @@
+Sha1- algorítimo de encriptação
+	conjunto de 40 dígitos 
+	*forma curta de representar um arquivo 
+
+Objetos do git
+	blobs - contém o tamanho da string, conteúdo
+	tree - armazena blobs
+	commit 
+
+
+Passos para criar chave ssh
+
+ssg -keygen -t ed25519 -C email
+copiar para o site do github (chave publica)
+eval $(ssh-acent -s)
+ssh -add id_ed(chave privada)
+
+
+Para realizar modificações no repositório a partir de mudanças locais
+git add .
+git commit -m "nome do arquivo ou pasta"
+git push origen main 
